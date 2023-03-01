@@ -10,7 +10,7 @@ function countdown (number){
         else{
             console.log(number);
         }
-    },2000)
+    },1000)
 
 }
 // Write a function called randomGame that selects a random number between 0 and 1 every 1000 milliseconds 
@@ -26,6 +26,6 @@ function randomGame(){
             clearInterval(startNums)
             console.log("The number of tries It took " + startNumer + " we found number greatet than .75");
         }
-    },1000)
+    }, 1000)
 }
 
